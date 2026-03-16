@@ -1,3 +1,13 @@
+---
+title: Self-Data RAG Assistant
+emoji: 🏨
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+
 # 🏨 Novotel Smart Concierge: Self-Data RAG Agent
 
 A premium, production-ready **Retrieval-Augmented Generation (RAG)** application designed for the hospitality industry. This agent (named **Aria**) serves as a 5-star digital concierge for Novotel Hyderabad, processing guest requests using custom hotel knowledge and a sophisticated multi-model architecture.
