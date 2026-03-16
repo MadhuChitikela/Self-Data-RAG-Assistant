@@ -58,9 +58,21 @@ if "active_tab" not in st.session_state:
     available_tabs = list(DYNAMIC_SERVICES.keys())
     st.session_state.active_tab = available_tabs[0] if available_tabs else "Accommodations"
 
+# ── DIAGNOSTICS FOR CLOUD ──
 if "agent_chain" not in st.session_state:
+    required_keys = ["GOOGLE_API_KEY", "GROQ_API_KEY", "PINECONE_API_KEY"]
+    missing_keys = [k for k in required_keys if not os.getenv(k)]
+    
+    if missing_keys:
+        st.error(f"⚠️ Missing Secrets: {', '.join(missing_keys)}. Please add them in the Space Settings > Variables and secrets.")
+        st.stop()
+    
     with st.spinner("Initializing Concierge..."):
-        st.session_state.agent_chain = get_rag_chain()
+        try:
+            st.session_state.agent_chain = get_rag_chain()
+        except Exception as e:
+            st.error(f"❌ Initialization Error: {e}")
+            st.stop()
 
 def get_ai_response(msg):
     st.session_state.chat_history.append(HumanMessage(content=msg))
