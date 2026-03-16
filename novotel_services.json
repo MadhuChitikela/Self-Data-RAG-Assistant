@@ -1,0 +1,243 @@
+[
+  {
+    "category": "Accommodations",
+    "dish_name": "Standard Smart Room",
+    "price": "7500",
+    "veg_nonveg": "King/Twin | 28 sqm",
+    "main_ingredient": "Business Comfort",
+    "secondary_ingredients": [
+      "High-speed WiFi",
+      "Ergonomic Chair",
+      "Smart TV",
+      "Rain Shower",
+      "Laptop-sized Safe",
+      "Mini Fridge"
+    ],
+    "cooking_method": "Modern Functional",
+    "cooking_style": "Business Traveler",
+    "spice_level": "Standard Amenities"
+  },
+  {
+    "category": "Accommodations",
+    "dish_name": "Superior Family Suite",
+    "price": "12500",
+    "veg_nonveg": "King + Sofa Bed | 45 sqm",
+    "main_ingredient": "Domestic Harmony",
+    "secondary_ingredients": [
+       "Bathtub",
+      "Mini-Kitchenette",
+      "Kid's Welcome Pack",
+      "Nespresso Machine",
+      "Blackout Curtains",
+      "Connecting Room Option"
+    ],
+    "cooking_method": "Spacious Layout",
+    "cooking_style": "Family / Long Stay",
+    "spice_level": "High Privacy"
+  },
+  {
+    "category": "Accommodations",
+    "dish_name": "Executive Panoramic Room",
+    "price": "15000",
+    "veg_nonveg": "King Bed | Top Floor",
+    "main_ingredient": "Luxury Horizon",
+    "secondary_ingredients": [
+      "Lounge Access",
+      "Evening Cocktails",
+      "Pillow Menu",
+      "Premium Bluetooth Speaker",
+      "Late Checkout (2 PM)",
+      "Daily Newspaper"
+    ],
+    "cooking_method": "Elite Finish",
+    "cooking_style": "Corporate Executive",
+    "spice_level": "Premium Services"
+  },
+  {
+    "category": "Dining",
+    "dish_name": "Healthy & Hearty Buffet",
+    "price": "1800",
+    "veg_nonveg": "Global Selection",
+    "main_ingredient": "Multi-Cuisine",
+    "secondary_ingredients": [
+      "Gluten-Free Station",
+      "Live Pasta Counter",
+      "Detox Juice Bar",
+      "Vegan Desserts",
+      "Indian Curry Station"
+    ],
+    "cooking_method": "Open Kitchen",
+    "cooking_style": "Food Exchange Concept",
+    "spice_level": "Customizable"
+  },
+  {
+    "category": "Dining",
+    "dish_name": "Gourmet Bar Platter",
+    "price": "1200",
+    "veg_nonveg": "Assorted Tapas",
+    "main_ingredient": "Social Sharing",
+    "secondary_ingredients": [
+      "Artisan Cheeses",
+      "Grilled Veggies",
+      "Local Spiced Chicken",
+      "House Dips",
+      "Fresh Sourdough"
+    ],
+    "cooking_method": "Hand-crafted",
+    "cooking_style": "Social Hub",
+    "spice_level": "Mild to Medium"
+  },
+  {
+    "category": "Dining",
+    "dish_name": "24/7 Room Service Burger",
+    "price": "850",
+    "veg_nonveg": "Veg/Non-Veg Options",
+    "main_ingredient": "Comfort Food",
+    "secondary_ingredients": [
+      "Wagyu/Paneer Patty",
+      "Potato Wedges",
+      "House Slaw",
+      "Brioche Bun",
+      "Secret Sauce"
+    ],
+    "cooking_method": "Flame Grilled",
+    "cooking_style": "Private Dining",
+    "spice_level": "Mild"
+  },
+  {
+    "category": "Wellness",
+    "dish_name": "InBalance Signature Spa",
+    "price": "4500",
+    "veg_nonveg": "90 Mins Session",
+    "main_ingredient": "Deep Rejuvenation",
+    "secondary_ingredients": [
+      "Swedish Massage",
+      "Organic Essential Oils",
+      "Herbal Tea",
+      "Access to Steam/Sauna",
+      "Pressure Point Therapy"
+    ],
+    "cooking_method": "Holistic Therapy",
+    "cooking_style": "Wellness Retreat",
+    "spice_level": "Stress Relief"
+  },
+  {
+    "category": "Wellness",
+    "dish_name": "Aromatherapy Facial",
+    "price": "3200",
+    "veg_nonveg": "60 Mins",
+    "main_ingredient": "Skin Glow",
+    "secondary_ingredients": [
+      "Vitamin C Serum",
+      "Clay Mask",
+      "Scalp Massage",
+      "Hydrating Mist",
+      "Jade Roller Use"
+    ],
+    "cooking_method": "Gentle Care",
+    "cooking_style": "Beauty/Wellness",
+    "spice_level": "Soothing"
+  },
+  {
+    "category": "Events",
+    "dish_name": "Smart Meeting Boardroom",
+    "price": "25000",
+    "veg_nonveg": "Full Day | Max 12 Pax",
+    "main_ingredient": "Productive Synergy",
+    "secondary_ingredients": [
+      "85-inch Interactive Screen",
+      "Hybrid Video Conferencing",
+      "Nespresso Break",
+      "Catering Included",
+      "Flipcharts/Markers"
+    ],
+    "cooking_method": "Tech-Enabled",
+    "cooking_style": "Pro-Act Meetings",
+    "spice_level": "High Efficiency"
+  },
+  {
+    "category": "Events",
+    "dish_name": "Wedding Banquet Hub",
+    "price": "250000",
+    "veg_nonveg": "Custom Theme",
+    "main_ingredient": "Grand Celebration",
+    "secondary_ingredients": [
+      "Floral Decoration",
+      "Stage & Lighting",
+      "Bridal Suite Access",
+      "Valet Parking",
+      "Custom Menu Design"
+    ],
+    "cooking_method": "Full Service",
+    "cooking_style": "Social Events",
+    "spice_level": "Premium Luxury"
+  },
+  {
+    "category": "Transport",
+    "dish_name": "Private Airport Transfer",
+    "price": "2500",
+    "veg_nonveg": "Luxury Sedan",
+    "main_ingredient": "Seamless Arrival",
+    "secondary_ingredients": [
+      "Meet & Greet",
+      "Chauffeur Driven",
+      "Bottled Water",
+      "Wifi on Board",
+      "Newspaper/Magazines"
+    ],
+    "cooking_method": "Scheduled",
+    "cooking_style": "Transport Service",
+    "spice_level": "Reliable"
+  },
+  {
+    "category": "Transport",
+    "dish_name": "Local City Tour (Half Day)",
+    "price": "4500",
+    "veg_nonveg": "Private Cab",
+    "main_ingredient": "Exploration",
+    "secondary_ingredients": [
+      "Guided Driver",
+      "3 Major Landmarks",
+      "Shopping Stop",
+      "Flexible Timing",
+      "A/C Vehicle"
+    ],
+    "cooking_method": "Curated",
+    "cooking_style": "Sightseeing",
+    "spice_level": "Culture Rich"
+  },
+  {
+    "category": "Customization",
+    "dish_name": "Pillow Menu Selection",
+    "price": "0",
+    "veg_nonveg": "Complimentary",
+    "main_ingredient": "Sleep Quality",
+    "secondary_ingredients": [
+      "Memory Foam",
+      "Buckwheat Cooling",
+      "Latex Support",
+      "Soft Down",
+      "Anti-Snore Pillow"
+    ],
+    "cooking_method": "Request via App/Concierge",
+    "cooking_style": "Personalization",
+    "spice_level": "Maximum Comfort"
+  },
+  {
+    "category": "Customization",
+    "dish_name": "Celebration Room Decor",
+    "price": "3500",
+    "veg_nonveg": "Birthday/Anniversary",
+    "main_ingredient": "Special Moment",
+    "secondary_ingredients": [
+      "Rose Petal Setup",
+      "Balloons",
+      "Cake (Half KG)",
+      "Greeting Card",
+      "Chocolate Box"
+    ],
+    "cooking_method": "Manual Setup",
+    "cooking_style": "Add-on Service",
+    "spice_level": "Heartwarming"
+  }
+]

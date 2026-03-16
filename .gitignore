@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/config.toml
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+share/
+etc/
