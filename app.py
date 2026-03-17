@@ -1,4 +1,6 @@
 import streamlit as st
+import os
+from rag_agent import get_rag_chain
 
 # ── MUST BE FIRST ──
 st.set_page_config(
@@ -15,6 +17,19 @@ if "messages" not in st.session_state:
     ]
 if "active_tab" not in st.session_state:
     st.session_state.active_tab = "Accommodations"
+
+# ── RAG INITIALIZATION ──
+@st.cache_resource
+def load_rag_chain():
+    try:
+        if not os.getenv("GOOGLE_API_KEY") or not os.getenv("PINECONE_API_KEY"):
+            return None
+        return get_rag_chain()
+    except Exception as e:
+        st.error(f"Error loading RAG chain: {e}")
+        return None
+
+rag_layer = load_rag_chain()
 
 SERVICES = {
     "Accommodations": [
@@ -33,6 +48,21 @@ SERVICES = {
 }
 
 def bot_reply(msg):
+    # Try RAG first
+    if rag_layer:
+        try:
+            # Convert session messages to RAG history format
+            history = []
+            for m in st.session_state.messages[-10:]: # last 10 msgs
+                role = "human" if m["role"] == "user" else "ai"
+                history.append((role, m["content"]))
+            
+            response = rag_layer.invoke({"input": msg, "chat_history": history})
+            return response.get("answer", "I apologize, I'm having trouble retrieving an answer right now.")
+        except Exception as e:
+            return f"Aria (Fallback): I encountered an issue: {str(e)}. How can I help you manually?"
+
+    # Dummy fallback if RAG is not configured
     m = msg.lower()
     if "spa" in m: return "Lumina Spa has availability today at 3 PM. Shall I book it?"
     if "room" in m: return "Our Standard Smart Rooms are available from Rs 7,500. Would you like to see the views?"

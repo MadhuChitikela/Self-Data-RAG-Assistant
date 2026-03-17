@@ -1,1 +1,11 @@
-streamlit==1.32.0
+streamlit==1.54.0
+langchain
+langchain-community
+langchain-google-genai
+langchain-groq
+langchain-huggingface
+langchain-pinecone
+python-dotenv
+sentence-transformers
+pinecone-client
+google-generativeai
